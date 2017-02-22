@@ -11,8 +11,7 @@ font-weight:400;
 
 img{max-width:100%;
 box-shadow:1px 2px 2px 4px rgba(0,0,0,.8);
-width:350px;
-height:350px;
+
 }
 
 
@@ -41,14 +40,16 @@ text-align:center;
 .imageGallery > li {
   
   padding: 5px;
-  width: 200px;
-  height: 200px;
   margin-top: 10px;
   line-height: 150px;
   color: white;
   font-weight: bold;
   font-size: 3em;
   text-align: center;
+}
+.imageGallery > li img{
+width:350px;
+height:350px;
 }
 
 
@@ -57,10 +58,7 @@ text-align:center;
 @media all and (min-width: 480px) {
    
            #galleryTitle { font-size:2rem }
-	img{
-	width:350px;
-height:350px;
-    }
+
 }
 
 
